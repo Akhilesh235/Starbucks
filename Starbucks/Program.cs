@@ -16,6 +16,7 @@ namespace Starbucks
 
             int SizeCost = 0;
             int TotalTypeCost = 0;
+            int TotalCost = SizeCost + TotalTypeCost;
 
             Console.WriteLine("\nChoose Your Coffee Size: ");
             Console.WriteLine("1. Tall ($1)");
@@ -129,6 +130,7 @@ namespace Starbucks
             }
 
 
+            Another:
             Console.WriteLine("\nDo you want to order another coffee?");
             string ChoiceToContinue = Console.ReadLine();
             switch (ChoiceToContinue.ToLower())
@@ -141,12 +143,24 @@ namespace Starbucks
                     {
                         break;
                     }
-            }
+                default:
+                    {
+                        Console.WriteLine("Your choice {0} is invalid. Please type Yes or No" , ChoiceToContinue);
+                        goto Another;
 
+                    }
+
+                  
+            }
+            
             Console.WriteLine("\n\nThank you for shopping");
-            int TotalCost = SizeCost + TotalTypeCost;
             Console.WriteLine("Your total bill is : ${0}", TotalCost);
             Console.ReadLine();
+
+
+
+
         }
+
     }
 }
