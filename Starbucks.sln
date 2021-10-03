@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Starbucks", "Starbucks\Starbucks.csproj", "{9B0FEBE7-24A3-4491-9F78-82579FA84692}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B0FEBE7-24A3-4491-9F78-82579FA84692}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B0FEBE7-24A3-4491-9F78-82579FA84692}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B0FEBE7-24A3-4491-9F78-82579FA84692}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B0FEBE7-24A3-4491-9F78-82579FA84692}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {936737D0-BA76-423A-ACD6-EE29A7F5DE3A}
+	EndGlobalSection
+EndGlobal
